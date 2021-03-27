@@ -2,3 +2,62 @@ html, body {
     margin: 0;
     font-family: sans-serif;
 }
+
+.header h1, .header p, hr {
+    margin: 0 0 0 2rem;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.header p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+h1 a:link,
+h1 a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+h1 a:hover,
+h1 a:active {
+    text-decoration: none;
+    color: rgb(255, 98, 98);
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+button, input {
+    width: 80%;
+    height: 3rem;
+    margin: auto;
+    font-size: 2rem;
+    background-color: white;
+    border-radius: 0;
+}
+
+button:hover, .submit:hover {
+    background-color: rgb(255, 98, 98);
+    font-weight: bold;
+}
+
+.final-story {
+    font-size: 3rem;
+    width: 80%;
+    margin: auto;
+    background-color: lightgrey;
+    padding: .5em;
+    border: 0.1em solid black;
+    border-radius: 1em;
+}
+
+.word {
+    color: red;
+}
