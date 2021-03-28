@@ -40,7 +40,7 @@ function submitForm() {
     let input = []
     let inputs = []
     for (let i = 0; i < story.words.length; i++) {
-        input = `<input type="text" name="${story.words[i]}" placeholder="${story.words[i]}">`
+        input = `<input required type="text" name="${story.words[i]}" placeholder="${story.words[i]}">`
         inputs.push(input)
         
     }

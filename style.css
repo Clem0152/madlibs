@@ -3,6 +3,10 @@ html, body {
     font-family: sans-serif;
 }
 
+body {
+    background-color: white;
+}
+
 .header h1, .header p, hr {
     margin: 0 0 0 2rem;
     padding: 0;
